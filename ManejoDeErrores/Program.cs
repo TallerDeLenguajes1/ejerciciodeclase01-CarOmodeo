@@ -20,7 +20,7 @@ namespace ManejoDeErrores
                 }
             }catch(IndexOutOfRangeException)
             {
-
+                Console.WriteLine("Error al mostrar los datos");
             }
             Console.ReadLine();
         }

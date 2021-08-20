@@ -31,7 +31,7 @@ namespace AdivinarElNumero
                 }
                 catch (OverflowException)
                 {
-                    Console.WriteLine("Valor incorrecto. Ingrese un entero entre 0 y 100");
+                    Console.WriteLine("Valor incorrecto.  Debe ingresar un entero entre 0 y 100");
                     num = -1;
                 }
                 catch (FormatException)
